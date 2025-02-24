@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  font-family: sans-serif;
+  font-size: 12px;
+  background-color: #fdf0cf;
+  opacity: 1;
+  height: 100%;
+  z-index: 1;
+//   overflow-x: hidden;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  flex-grow: 1;
+  padding: 20px;
+}
+
+$breakpoint-xs: 480px; // Extra small devices (phones)
+$breakpoint-sm: 768px; // Small devices (tablets)
+$breakpoint-md: 992px; // Medium devices (small desktops)
+$breakpoint-lg: 1200px; // Large devices (desktops)
+$breakpoint-xl: 1600px; // Extra large devices (large screens)
+
+// Create a mixin for media queries
+@mixin respond-to($breakpoint) {
+  @if $breakpoint == xs {
+    @media (max-width: $breakpoint-xs) {
+      @content;
+    }
+  } @else if $breakpoint == sm {
+    @media (max-width: $breakpoint-sm) {
+      @content;
+    }
+  } @else if $breakpoint == md {
+    @media (max-width: $breakpoint-md) {
+      @content;
+    }
+  } @else if $breakpoint == lg {
+    @media (max-width: $breakpoint-lg) {
+      @content;
+    }
+  } @else if $breakpoint == xl {
+    @media (max-width: $breakpoint-xl) {
+      @content;
+    }
+  }
+}

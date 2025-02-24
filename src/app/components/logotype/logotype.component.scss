@@ -1,0 +1,50 @@
+.logotype {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  position: relative;
+  width: min-content;
+
+  &-title {
+    font-family: "Reenie Beanie", sans-serif;
+    font-size: 80px;
+    font-weight: 200;
+    letter-spacing: 0.1em;
+    line-height: 100%;
+    text-align: left;
+    color: #ffffff;
+    text-decoration: none;
+  }
+
+  .icon-container {
+    border-radius: inherit;
+    inset: 0;
+    display: block;
+    aspect-ratio: 1.014 / 1;
+    border-radius: 15px;
+    position: relative;
+    text-decoration: none;
+
+    &.size-small {
+      width: 50px;
+    }
+  
+    &.size-medium {
+      width: 80px;
+    }
+  
+    &.size-large {
+      width: 140px;
+    }
+  }
+
+  .capybara-icon {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: inherit;
+    object-fit: fill;
+    object-position: center;
+  }
+}

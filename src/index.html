@@ -1,13 +1,91 @@
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>VPILandingPage</title>
-  <base href="/">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
-</head>
-<body>
-  <app-root></app-root>
-</body>
+<!DOCTYPE html>
+<html lang="es-419">
+  <head>
+    <meta charset="utf-8" />
+    <title>VPI App Landing Page</title>
+    <base href="/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/x-icon" href="./assets/Carpincho 1.png" />
+    <meta
+      name="description"
+      content="La aplicación móvil desarrollada especialmente para eventos que te permite invitar fácilmente a tus amigos y enterarte en tiempo real de los suyos."
+    />
+    <script>
+      const checkAutomaticLocale = function eY() {
+        let o = (c) => {
+            let u = new URL(c);
+            return `${u.origin}${u.pathname}`.replace(/\/$/u, "");
+          },
+          t = (c) => c.split("-")[0],
+          e = window.location.hostname;
+        function r() {
+          let c = new Map();
+          return (
+            document.querySelectorAll('link[rel="alternate"]').forEach((u) => {
+              let p = u.getAttribute("hreflang"),
+                m = u.getAttribute("href");
+              !p ||
+                !m ||
+                p === "x-default" ||
+                new URL(m).hostname !== e ||
+                c.set(p, m);
+            }),
+            c
+          );
+        }
+        function n(c, u) {
+          let p = document.querySelector(
+              'link[rel="alternate"][hreflang="x-default"]'
+            ),
+            m = p == null ? void 0 : p.getAttribute("href");
+          return m ? u.get(c) === m : !1;
+        }
+        function i() {
+          try {
+            let c = localStorage.getItem("preferredLocale");
+            return c ? [c, ...navigator.languages] : navigator.languages;
+          } catch {
+            return navigator.languages;
+          }
+        }
+        function s(c) {
+          o(window.location.href) !== o(c) &&
+            window.location.replace(c + window.location.search);
+        }
+        if (
+          navigator.webdriver ||
+          /bot|crawl|spider/i.test(navigator.userAgent)
+        )
+          return;
+        let l = document.documentElement.getAttribute("lang");
+        if (!l) return;
+        let d = r();
+        if (n(l, d))
+          for (let c of i()) {
+            let u = d.get(c);
+            if (u) {
+              s(u);
+              return;
+            }
+            let p = t(c);
+            for (let [m, f] of d.entries())
+              if (t(m) === p) {
+                s(f);
+                return;
+              }
+          }
+      };
+      let ran = false;
+
+      document.addEventListener("readystatechange", function () {
+        if (document.readyState === "interactive" && !ran) {
+          ran = true;
+          checkAutomaticLocale();
+        }
+      });
+    </script>
+  </head>
+  <body>
+    <app-root></app-root>
+  </body>
 </html>

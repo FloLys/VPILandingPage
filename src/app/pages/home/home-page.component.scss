@@ -1,0 +1,96 @@
+.presentation {
+  &-container {
+    align-content: center;
+    align-items: center;
+    display: flex;
+    flex: none;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: min-content;
+    justify-content: space-evenly;
+    overflow: visible;
+    padding: 0;
+    position: relative;
+    width: 100%;
+
+    .logotype {
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        
+        .logotype-title {
+          color: #f39019;
+        }
+      }
+  }
+
+  &-intro {
+    align-content: center;
+    align-items: center;
+    align-self: stretch;
+    display: flex;
+    flex: 1 0 0px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 48px;
+    height: auto;
+    justify-content: flex-start;
+    min-width: 380px;
+    overflow: hidden;
+    padding: 0 40px;
+    position: relative;
+  }
+}
+
+.button-container {
+  align-items: center;
+  display: flex;
+  flex: none;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  gap: 10px;
+  height: min-content;
+  justify-content: center;
+  overflow: visible;
+  padding: 0;
+  position: relative;
+  width: 380px;
+}
+
+.tags {
+  align-items: center;
+  display: flex;
+  flex: none;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 30px;
+  height: min-content;
+  justify-content: center;
+  overflow: hidden;
+  padding: 0;
+  position: relative;
+  width: 100%;
+}
+
+.tag {
+  align-items: flex-start;
+  display: flex;
+  flex: none;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 10px;
+  height: min-content;
+  justify-content: center;
+  overflow: hidden;
+  padding: 0;
+  position: relative;
+  width: min-content;
+
+  p {
+    font-family: "Ubuntu", "Ubuntu Placeholder", sans-serif;
+    font-size: 20px;
+    line-height: 32px;
+    text-align: center;
+    color: rgb(243, 144, 25);
+  }
+}
