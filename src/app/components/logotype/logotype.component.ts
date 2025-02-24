@@ -1,7 +1,7 @@
 import { Component, Input } from '@angular/core';
 
 @Component({
-  selector: 'logotype',
+  selector: 'vpi-logotype',
   templateUrl: './logotype.component.html',
   styleUrls: ['./logotype.component.scss'],
 })

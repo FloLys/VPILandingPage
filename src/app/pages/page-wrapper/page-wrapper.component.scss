@@ -102,36 +102,6 @@ footer {
     width: max-content;
   }
 
-  .button {
-    position: relative;
-    appearance: none;
-    width: auto;
-    height: auto;
-    outline: none;
-    border: none;
-    cursor: pointer;
-    border-radius: 10px;
-    font-size: 14px;
-    font-family: "Ubuntu", "Ubuntu Placeholder", sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 1.2em;
-    text-align: center;
-    background: rgb(229, 54, 86);
-    color: white;
-    z-index: 1;
-    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 4px 0px,
-      rgba(0, 0, 0, 0.3) 0px 1px 2px 0px;
-    opacity: 1;
-    overflow: visible;
-    padding: 10px 20px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    gap: 10px;
-    justify-content: center;
-  }
-
   .legal {
     font-family: "Ubuntu";
     color: white;
@@ -219,10 +189,6 @@ footer {
         background: rgb(254, 254, 254);
         color: var(--token-419394a1-565d-4952-8ba3-b4f1eb92339c, rgb(5, 5, 5));
       }
-    }
-
-    button {
-      font-size: 16px;
     }
 
     .error-message {

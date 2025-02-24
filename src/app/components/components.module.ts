@@ -4,9 +4,10 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
 
 import { PagesRoutingModule } from '../pages/pages-routing.module';
+import { ButtonComponent } from './button/button.component';
 import { LogotypeComponent } from './logotype/logotype.component';
 
-export const SHARED_COMPONENTS = [LogotypeComponent];
+export const SHARED_COMPONENTS = [LogotypeComponent, ButtonComponent];
 
 @NgModule({
   declarations: SHARED_COMPONENTS,

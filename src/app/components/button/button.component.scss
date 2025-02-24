@@ -1,0 +1,53 @@
+.vpi-button {
+  cursor: pointer;
+  position: relative;
+  appearance: none;
+  width: auto;
+  height: auto;
+  outline: none;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-family: "Ubuntu", "Ubuntu Placeholder", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.2em;
+  text-align: center;
+  background: rgb(229, 55, 87);
+  color: white;
+  z-index: 1;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 4px 0px,
+    rgba(0, 0, 0, 0.3) 0px 1px 2px 0px;
+  opacity: 1;
+  overflow: visible;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 10px;
+  justify-content: center;
+
+  &.small {
+    font-size: 14px;
+  }
+
+  &.medium {
+    font-size: 18px;
+  }
+
+  &.large {
+    font-size: 24px;
+    padding: 20px 30px;
+  }
+
+  &.primary {
+    background: rgb(229, 55, 87);
+  }
+
+  &.disabled {
+    background: rgb(222, 130, 147);
+  }
+
+  &.secondary {
+    background: rgb(144, 57, 120);
+  }
+}

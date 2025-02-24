@@ -31,13 +31,12 @@ export class PageWrapperComponent implements OnInit {
     });
   }
 
-  ngOnInit(): void {
-  }
+  ngOnInit(): void {}
 
   @HostListener('window:scroll')
   onScroll(): void {
     const scrollTop = document.documentElement.scrollTop;
-    if ( scrollTop > this.lastScrollTop) {
+    if (scrollTop > this.lastScrollTop) {
       this.isHidden = true;
       this.isVisible = false;
     } else {
@@ -45,6 +44,22 @@ export class PageWrapperComponent implements OnInit {
       this.isVisible = true;
     }
     this.lastScrollTop = scrollTop;
+  }
+
+  handleClickEvent(event: string) {
+    switch (event) {
+      case 'download-apk':
+        /// TODO: add service
+        console.log('downloading apk');
+        break;
+      case 'subscribe':
+        /// TODO: add service
+        /// Subscribe service sending notification
+        break;
+      default:
+        console.log('default');
+        break;
+    }
   }
 
   onSubscribe() {
