@@ -3,11 +3,12 @@ import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { BehaviorSubject, Observable } from 'rxjs';
 
 @Component({
-  selector: 'app-page-wrapper',
-  templateUrl: './page-wrapper.component.html',
-  styleUrls: ['./page-wrapper.component.scss'],
-  encapsulation: ViewEncapsulation.None,
-  changeDetection: ChangeDetectionStrategy.OnPush,
+    selector: 'app-page-wrapper',
+    templateUrl: './page-wrapper.component.html',
+    styleUrls: ['./page-wrapper.component.scss'],
+    encapsulation: ViewEncapsulation.None,
+    changeDetection: ChangeDetectionStrategy.OnPush,
+    standalone: false
 })
 export class PageWrapperComponent implements OnInit {
   isHidden = false;
