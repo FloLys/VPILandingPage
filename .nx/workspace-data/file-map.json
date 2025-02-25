@@ -73,16 +73,40 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": ".editorconfig",
-        "hash": "5443105041930014821"
+        "file": "package-lock.json",
+        "hash": "13163457294428625884"
+      },
+      {
+        "file": "tsconfig.base.json",
+        "hash": "16936441711144470533"
+      },
+      {
+        "file": "jest.config.ts",
+        "hash": "3494843969422251966"
+      },
+      {
+        "file": "nx.json",
+        "hash": "13901999433118100933"
       },
       {
         "file": ".github/workflows/ci.yml",
         "hash": "14709568906347065970"
       },
       {
+        "file": "README.md",
+        "hash": "9186235279401256980"
+      },
+      {
         "file": ".gitignore",
         "hash": "4769899759737431519"
+      },
+      {
+        "file": "eslint.config.js",
+        "hash": "2478217381773231556"
+      },
+      {
+        "file": ".editorconfig",
+        "hash": "5443105041930014821"
       },
       {
         "file": ".prettierignore",
@@ -93,36 +117,12 @@
         "hash": "16267754514737964994"
       },
       {
-        "file": "README.md",
-        "hash": "9186235279401256980"
-      },
-      {
-        "file": "eslint.config.js",
-        "hash": "2478217381773231556"
-      },
-      {
-        "file": "jest.config.ts",
-        "hash": "3494843969422251966"
+        "file": "package.json",
+        "hash": "11729097581747877174"
       },
       {
         "file": "jest.preset.js",
         "hash": "9430166341120122740"
-      },
-      {
-        "file": "nx.json",
-        "hash": "13901999433118100933"
-      },
-      {
-        "file": "package-lock.json",
-        "hash": "13163457294428625884"
-      },
-      {
-        "file": "package.json",
-        "hash": "8914719686960823062"
-      },
-      {
-        "file": "tsconfig.base.json",
-        "hash": "16936441711144470533"
       }
     ],
     "projectFileMap": {

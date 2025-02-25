@@ -1,21 +1,9 @@
 {
   "run": {
-    "command": "nx build vpi-landing-fe --configuration=production",
-    "startTime": "2025-02-25T19:04:32.350Z",
-    "endTime": "2025-02-25T19:04:37.953Z",
+    "command": "nx run-many --target=serve --projects=serve:fe,serve:strapi --parallel",
+    "startTime": "2025-02-25T19:29:37.109Z",
+    "endTime": "2025-02-25T19:29:37.114Z",
     "inner": false
   },
-  "tasks": [
-    {
-      "taskId": "vpi-landing-fe:build:production",
-      "target": "build",
-      "projectName": "vpi-landing-fe",
-      "hash": "3596197893254395587",
-      "startTime": "2025-02-25T19:04:32.374Z",
-      "endTime": "2025-02-25T19:04:37.953Z",
-      "params": "",
-      "cacheStatus": "cache-miss",
-      "status": 0
-    }
-  ]
+  "tasks": []
 }

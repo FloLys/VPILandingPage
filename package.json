@@ -2,7 +2,9 @@
   "name": "@vpi-landing-page/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "start": "nx run-many --target=serve --projects=vpi-landing-fe,vpi-landing-strapi --parallel"
+  },
   "private": true,
   "dependencies": {
     "@angular/animations": "~18.2.0",
