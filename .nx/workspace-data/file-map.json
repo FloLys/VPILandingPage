@@ -1,0 +1,388 @@
+{
+  "version": "6.0",
+  "nxVersion": "19.8.4",
+  "deps": {
+    "@angular/animations": "^19.1.7",
+    "@angular/common": "^19.1.7",
+    "@angular/compiler": "^19.1.7",
+    "@angular/core": "^19.1.7",
+    "@angular/forms": "^19.1.7",
+    "@angular/platform-browser": "^19.1.7",
+    "@angular/platform-browser-dynamic": "^19.1.7",
+    "@angular/router": "^19.1.7",
+    "rxjs": "~7.8.0",
+    "tslib": "^2.3.0",
+    "zone.js": "~0.15.0",
+    "@angular-devkit/build-angular": "^19.1.8",
+    "@angular/cli": "~19.1.8",
+    "@angular/compiler-cli": "^19.1.7",
+    "@types/jasmine": "~4.3.0",
+    "jasmine-core": "~4.6.0",
+    "karma": "~6.4.0",
+    "karma-chrome-launcher": "~3.2.0",
+    "karma-coverage": "~2.2.0",
+    "karma-jasmine": "~5.1.0",
+    "karma-jasmine-html-reporter": "~2.1.0",
+    "typescript": "~5.7.3"
+  },
+  "pathMappings": {},
+  "nxJsonPlugins": [],
+  "fileMap": {
+    "projectFileMap": {
+      "vpi-landing-fe-e2e": [
+        {
+          "file": "VpiLandingPage/apps/vpi-landing-fe-e2e/cypress.config.ts",
+          "hash": "12885449364643607649"
+        },
+        {
+          "file": "VpiLandingPage/apps/vpi-landing-fe-e2e/eslint.config.js",
+          "hash": "8941139249087650005"
+        },
+        {
+          "file": "VpiLandingPage/apps/vpi-landing-fe-e2e/project.json",
+          "hash": "8431222516647658639"
+        },
+        {
+          "file": "VpiLandingPage/apps/vpi-landing-fe-e2e/src/e2e/app.cy.ts",
+          "hash": "7554363746219265646"
+        },
+        {
+          "file": "VpiLandingPage/apps/vpi-landing-fe-e2e/src/fixtures/example.json",
+          "hash": "11785586596216172004"
+        },
+        {
+          "file": "VpiLandingPage/apps/vpi-landing-fe-e2e/src/support/app.po.ts",
+          "hash": "11157016311132186162"
+        },
+        {
+          "file": "VpiLandingPage/apps/vpi-landing-fe-e2e/src/support/commands.ts",
+          "hash": "5397443931564808659"
+        },
+        {
+          "file": "VpiLandingPage/apps/vpi-landing-fe-e2e/src/support/e2e.ts",
+          "hash": "1054106023200826784"
+        },
+        {
+          "file": "VpiLandingPage/apps/vpi-landing-fe-e2e/tsconfig.json",
+          "hash": "4332380883180617610"
+        }
+      ],
+      "vpi-landing-fe": [
+        {
+          "file": "VpiLandingPage/apps/vpi-landing-fe/eslint.config.js",
+          "hash": "12883900717377691005"
+        },
+        {
+          "file": "VpiLandingPage/apps/vpi-landing-fe/jest.config.ts",
+          "hash": "6041827227095561783"
+        },
+        {
+          "file": "VpiLandingPage/apps/vpi-landing-fe/project.json",
+          "hash": "16040956459589136426"
+        },
+        {
+          "file": "VpiLandingPage/apps/vpi-landing-fe/public/favicon.ico",
+          "hash": "9303420814833116677"
+        },
+        {
+          "file": "VpiLandingPage/apps/vpi-landing-fe/src/app/app.component.html",
+          "hash": "5654460193981998828"
+        },
+        {
+          "file": "VpiLandingPage/apps/vpi-landing-fe/src/app/app.component.scss",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "VpiLandingPage/apps/vpi-landing-fe/src/app/app.component.spec.ts",
+          "hash": "8779956170271246446"
+        },
+        {
+          "file": "VpiLandingPage/apps/vpi-landing-fe/src/app/app.component.ts",
+          "hash": "9161596416244883108"
+        },
+        {
+          "file": "VpiLandingPage/apps/vpi-landing-fe/src/app/app.config.ts",
+          "hash": "6137170128205633588"
+        },
+        {
+          "file": "VpiLandingPage/apps/vpi-landing-fe/src/app/app.routes.ts",
+          "hash": "6185150965714414910"
+        },
+        {
+          "file": "VpiLandingPage/apps/vpi-landing-fe/src/app/nx-welcome.component.ts",
+          "hash": "9621505114507574938"
+        },
+        {
+          "file": "VpiLandingPage/apps/vpi-landing-fe/src/index.html",
+          "hash": "8787342968774985895"
+        },
+        {
+          "file": "VpiLandingPage/apps/vpi-landing-fe/src/main.ts",
+          "hash": "16635586463787978962"
+        },
+        {
+          "file": "VpiLandingPage/apps/vpi-landing-fe/src/styles.scss",
+          "hash": "5195668842064076916"
+        },
+        {
+          "file": "VpiLandingPage/apps/vpi-landing-fe/src/test-setup.ts",
+          "hash": "12935735732682149507"
+        },
+        {
+          "file": "VpiLandingPage/apps/vpi-landing-fe/tsconfig.app.json",
+          "hash": "8365644956319658761"
+        },
+        {
+          "file": "VpiLandingPage/apps/vpi-landing-fe/tsconfig.editor.json",
+          "hash": "1055794200401717100"
+        },
+        {
+          "file": "VpiLandingPage/apps/vpi-landing-fe/tsconfig.json",
+          "hash": "13754717195043702669"
+        },
+        {
+          "file": "VpiLandingPage/apps/vpi-landing-fe/tsconfig.spec.json",
+          "hash": "2927375835638640771"
+        }
+      ]
+    },
+    "nonProjectFiles": [
+      {
+        "file": ".editorconfig",
+        "hash": "6686520031028425313"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "13044518069027839699"
+      },
+      {
+        "file": ".vscode/extensions.json",
+        "hash": "5331566439708925252"
+      },
+      {
+        "file": ".vscode/launch.json",
+        "hash": "17038929134016848735"
+      },
+      {
+        "file": ".vscode/tasks.json",
+        "hash": "5336636969995539451"
+      },
+      {
+        "file": "README.md",
+        "hash": "8252594459468961047"
+      },
+      {
+        "file": "VpiLandingPage/.editorconfig",
+        "hash": "5443105041930014821"
+      },
+      {
+        "file": "VpiLandingPage/.github/workflows/ci.yml",
+        "hash": "14709568906347065970"
+      },
+      {
+        "file": "VpiLandingPage/.gitignore",
+        "hash": "16399683567307215337"
+      },
+      {
+        "file": "VpiLandingPage/.prettierignore",
+        "hash": "5407418692668764289"
+      },
+      {
+        "file": "VpiLandingPage/.prettierrc",
+        "hash": "16267754514737964994"
+      },
+      {
+        "file": "VpiLandingPage/.vscode/extensions.json",
+        "hash": "4934098906304722861"
+      },
+      {
+        "file": "VpiLandingPage/README.md",
+        "hash": "9186235279401256980"
+      },
+      {
+        "file": "VpiLandingPage/eslint.config.js",
+        "hash": "2478217381773231556"
+      },
+      {
+        "file": "VpiLandingPage/jest.config.ts",
+        "hash": "3494843969422251966"
+      },
+      {
+        "file": "VpiLandingPage/jest.preset.js",
+        "hash": "9430166341120122740"
+      },
+      {
+        "file": "VpiLandingPage/nx.json",
+        "hash": "17673326782066217641"
+      },
+      {
+        "file": "VpiLandingPage/package-lock.json",
+        "hash": "9326667717717888660"
+      },
+      {
+        "file": "VpiLandingPage/package.json",
+        "hash": "7786905581930354533"
+      },
+      {
+        "file": "VpiLandingPage/tsconfig.base.json",
+        "hash": "16936441711144470533"
+      },
+      {
+        "file": "angular.json",
+        "hash": "12285590175831268788"
+      },
+      {
+        "file": "package-lock.json",
+        "hash": "17181548084259440876"
+      },
+      {
+        "file": "package.json",
+        "hash": "2190720172664907385"
+      },
+      {
+        "file": "src/app/app-routing.module.ts",
+        "hash": "17955651351042792680"
+      },
+      {
+        "file": "src/app/app.component.html",
+        "hash": "17816966185630879015"
+      },
+      {
+        "file": "src/app/app.component.scss",
+        "hash": "749919079266718450"
+      },
+      {
+        "file": "src/app/app.component.spec.ts",
+        "hash": "1185532614222628551"
+      },
+      {
+        "file": "src/app/app.component.ts",
+        "hash": "12909214029437108269"
+      },
+      {
+        "file": "src/app/app.module.ts",
+        "hash": "13864465063448164175"
+      },
+      {
+        "file": "src/app/components/button/button.component.html",
+        "hash": "16416198862217373680"
+      },
+      {
+        "file": "src/app/components/button/button.component.scss",
+        "hash": "13087288253201819416"
+      },
+      {
+        "file": "src/app/components/button/button.component.spec.ts",
+        "hash": "1250168509989094757"
+      },
+      {
+        "file": "src/app/components/button/button.component.ts",
+        "hash": "13852655230134042042"
+      },
+      {
+        "file": "src/app/components/components.module.ts",
+        "hash": "11780589680707566388"
+      },
+      {
+        "file": "src/app/components/logotype/logotype.component.html",
+        "hash": "604281327134057056"
+      },
+      {
+        "file": "src/app/components/logotype/logotype.component.scss",
+        "hash": "5191978826666323132"
+      },
+      {
+        "file": "src/app/components/logotype/logotype.component.spec.ts",
+        "hash": "16133498355005983118"
+      },
+      {
+        "file": "src/app/components/logotype/logotype.component.ts",
+        "hash": "14191056565000468922"
+      },
+      {
+        "file": "src/app/interfaces/button.interface.ts",
+        "hash": "11148515750831385287"
+      },
+      {
+        "file": "src/app/pages/home/home-page-routing.module.ts",
+        "hash": "3246150366062288429"
+      },
+      {
+        "file": "src/app/pages/home/home-page.component.html",
+        "hash": "8880923579957775591"
+      },
+      {
+        "file": "src/app/pages/home/home-page.component.scss",
+        "hash": "13123251594799740655"
+      },
+      {
+        "file": "src/app/pages/home/home-page.component.ts",
+        "hash": "3236349914056396832"
+      },
+      {
+        "file": "src/app/pages/home/home-page.module.ts",
+        "hash": "15626449816307656090"
+      },
+      {
+        "file": "src/app/pages/page-wrapper/page-wrapper.component.html",
+        "hash": "15287068735776144045"
+      },
+      {
+        "file": "src/app/pages/page-wrapper/page-wrapper.component.scss",
+        "hash": "16876250852150154054"
+      },
+      {
+        "file": "src/app/pages/page-wrapper/page-wrapper.component.ts",
+        "hash": "5658449832093759169"
+      },
+      {
+        "file": "src/app/pages/page-wrapper/page-wrapper.module.ts",
+        "hash": "5796371477458010286"
+      },
+      {
+        "file": "src/app/pages/pages-routing.module.ts",
+        "hash": "17492842931360960912"
+      },
+      {
+        "file": "src/app/pages/pages.module.ts",
+        "hash": "12370612801403681739"
+      },
+      {
+        "file": "src/assets/.gitkeep",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "src/assets/Carpincho 1.png",
+        "hash": "709530509136327063"
+      },
+      {
+        "file": "src/favicon.ico",
+        "hash": "709530509136327063"
+      },
+      {
+        "file": "src/index.html",
+        "hash": "12449822687388748805"
+      },
+      {
+        "file": "src/main.ts",
+        "hash": "12246588107753938993"
+      },
+      {
+        "file": "src/styles.scss",
+        "hash": "3421797457754575518"
+      },
+      {
+        "file": "tsconfig.app.json",
+        "hash": "17337579397915052279"
+      },
+      {
+        "file": "tsconfig.json",
+        "hash": "11218648299551297010"
+      },
+      {
+        "file": "tsconfig.spec.json",
+        "hash": "15575553540147145788"
+      }
+    ]
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "vpi-landing-fe-e2e",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "projectType": "application",
+  "sourceRoot": "apps/vpi-landing-fe-e2e/src",
+  "tags": [],
+  "implicitDependencies": ["vpi-landing-fe"],
+  "// targets": "to see all targets run: nx show project vpi-landing-fe-e2e --web",
+  "targets": {}
+}

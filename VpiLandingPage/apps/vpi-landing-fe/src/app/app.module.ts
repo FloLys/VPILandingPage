@@ -13,6 +13,7 @@ import { AppComponent } from './app.component';
     BrowserAnimationsModule,
     AppRoutingModule,
     CommonModule,
+    AppRoutingModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
