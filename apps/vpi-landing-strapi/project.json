@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json.schemastore.org/nx-workspace",
+  "sourceRoot": "apps/vpi-landing-strapi",
+  "projectType": "application",
+  "targets": {
+    "serve": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "npx strapi develop",
+        "cwd": "apps/vpi-landing-strapi"
+      },
+      "build": {
+        "executor": "nx:run-commands",
+        "options": {
+          "command": "npx strapi build",
+          "cwd": "apps/vpi-landing-strapi"
+        }
+      },
+      "develop": {
+        "executor": "nx:run-commands",
+        "options": {
+          "command": "npx strapi develop",
+          "cwd": "apps/vpi-landing-strapi"
+        }
+      }
+    }
+  }
+}

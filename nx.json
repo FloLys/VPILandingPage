@@ -17,6 +17,13 @@
     ],
     "sharedGlobals": ["{workspaceRoot}/.github/workflows/ci.yml"]
   },
+  "projects": {
+    "vpi-landing-strapi": {
+      "root": "apps/vpi-landing-strapi",
+      "sourceRoot": "apps/vpi-landing-strapi",
+      "projectType": "application"
+    }
+  },
   "nxCloudId": "67bd26f12c5bb460bff7689f",
   "targetDefaults": {
     "@angular-devkit/build-angular:browser": {

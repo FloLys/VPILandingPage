@@ -3,12 +3,12 @@ import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { BehaviorSubject, Observable } from 'rxjs';
 
 @Component({
-    selector: 'app-page-wrapper',
-    templateUrl: './page-wrapper.component.html',
-    styleUrls: ['./page-wrapper.component.scss'],
-    encapsulation: ViewEncapsulation.None,
-    changeDetection: ChangeDetectionStrategy.OnPush,
-    standalone: false
+  selector: 'app-page-wrapper',
+  templateUrl: './page-wrapper.component.html',
+  styleUrls: ['./page-wrapper.component.scss'],
+  encapsulation: ViewEncapsulation.None,
+  changeDetection: ChangeDetectionStrategy.OnPush,
+  standalone: false,
 })
 export class PageWrapperComponent implements OnInit {
   isHidden = false;
@@ -70,11 +70,37 @@ export class PageWrapperComponent implements OnInit {
       currentSubscribers.push(email);
       this.subsList.next(currentSubscribers);
 
+      this.createSubscriber(email);
+
       console.log('Email suscrito:', email);
       this.subsForm.reset();
       // TODO: include alert
     } else {
       console.log('Email inválido');
+    }
+  }
+
+  async createSubscriber(email: string) {
+    const url = 'http://localhost:1337/api';
+
+    try {
+      const response = await fetch(`${url}/subscribers`, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ data: { email: email } }),
+      });
+
+      if (!response.ok) {
+        const errorData = await response.json();
+        throw new Error(errorData.message || 'Network response was not ok');
+      }
+
+      const jsonResponse = await response.json();
+      console.log('Success:', jsonResponse);
+    } catch (error) {
+      console.error('Error:', error);
     }
   }
 }

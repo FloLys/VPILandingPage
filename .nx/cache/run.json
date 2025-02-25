@@ -1,8 +1,8 @@
 {
   "run": {
-    "command": "nx build vpi-landing-fe",
-    "startTime": "2025-02-25T03:28:08.526Z",
-    "endTime": "2025-02-25T03:28:08.542Z",
+    "command": "nx build vpi-landing-fe --configuration=production",
+    "startTime": "2025-02-25T19:04:32.350Z",
+    "endTime": "2025-02-25T19:04:37.953Z",
     "inner": false
   },
   "tasks": [
@@ -10,11 +10,11 @@
       "taskId": "vpi-landing-fe:build:production",
       "target": "build",
       "projectName": "vpi-landing-fe",
-      "hash": "5332706720117900491",
-      "startTime": "2025-02-25T03:28:08.533Z",
-      "endTime": "2025-02-25T03:28:08.537Z",
+      "hash": "3596197893254395587",
+      "startTime": "2025-02-25T19:04:32.374Z",
+      "endTime": "2025-02-25T19:04:37.953Z",
       "params": "",
-      "cacheStatus": "local-cache-hit",
+      "cacheStatus": "cache-miss",
       "status": 0
     }
   ]
